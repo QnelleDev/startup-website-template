@@ -1,0 +1,63 @@
+{
+    "collections": {
+        "Homepage": {
+            "fields": {
+                "Header": {
+                    "type": "text",
+                    "label": "Header"
+                },
+                "HeroSection": {
+                    "type": "object",
+                    "fields": {
+                        "headline": {
+                            "type": "text",
+                            "label": "Headline"
+                        },
+                        "subheadline": {
+                            "type": "text",
+                            "label": "Subheadline"
+                        },
+                        "cta": {
+                            "type": "text",
+                            "label": "Call to Action"
+                        }
+                    }
+                },
+                "Introduction": {
+                    "type": "text",
+                    "label": "Introduction"
+                }
+            }
+        },
+        "Features": {
+            "fields": {
+                "AskBaptiste": {
+                    "type": "object",
+                    "fields": {
+                        "description": {
+                            "type": "text",
+                            "label": "Description"
+                        },
+                        "benefits": {
+                            "type": "text",
+                            "label": "Benefits"
+                        }
+                    }
+                },
+                "BackofficeFunctionality": {
+                    "type": "object",
+                    "fields": {
+                        "description": {
+                            "type": "text",
+                            "label": "Description"
+                        },
+                        "benefits": {
+                            "type": "text",
+                            "label": "Benefits"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
